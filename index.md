@@ -39,6 +39,5 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### testing
 {% for post in site.posts %}	
-{{ post.url }} {{ post.title }}
-    {{ post.date | date: "%B %e, %Y" }} . {{ post.category }} . {{ post.url }}
+    [{{ post.title }}]({{ post.url }}) {{ post.date | date: "%B %e, %Y" }} {{ post.category }} {{ post.url }}
 {% endfor %}	
