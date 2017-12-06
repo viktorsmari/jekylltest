@@ -39,6 +39,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### testing
 {% for post in site.posts %}	
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>			
+{{ post.url }} {{ post.title }}
+    {{ post.date | date: "%B %e, %Y" }} . {{ post.category }} . {{ post.url }}
 {% endfor %}	
