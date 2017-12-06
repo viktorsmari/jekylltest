@@ -9,6 +9,8 @@
          <a href="{{ post.url }}">{{ post.title }}</a>
          <span>({{ post.date | date:"%Y-%m-%d" }})</span>
     </li>
+    <li>site.baseurl: {{ site.baseurl }} , post.url: {{ post.url }}
+    </li>
     </div>
   {% endfor %}
 </ul>
