@@ -20,7 +20,8 @@
 {% endfor %}	
 
 ## 3
-base url {{ site.baseurl }}
+site.baseurl {{ site.baseurl }}
+site.url {{ site.url }}
 
 ## Welcome to GitHub Pages
 
