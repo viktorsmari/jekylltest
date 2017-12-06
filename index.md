@@ -19,6 +19,8 @@
     [{{ post.title }}]({{ post.url }}) {{ post.date | date: "%B %e, %Y" }} {{ post.category }} {{ post.url }}
 {% endfor %}	
 
+## 3
+base url {{ site.baseurl }}
 
 ## Welcome to GitHub Pages
 
