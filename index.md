@@ -1,6 +1,7 @@
 
 ---
-layout: search
+layout: single
+title: frontpage
 ---
 
 ### testing
