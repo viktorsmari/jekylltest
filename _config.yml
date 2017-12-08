@@ -1,2 +1,4 @@
-theme: jekyll-theme-merlot
+#theme: jekyll-theme-merlot
+remote_theme: "mmistakes/minimal-mistakes"
+
 baseurl: /jekylltest
