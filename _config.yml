@@ -3,4 +3,4 @@
 #remote_theme: "mmistakes/minimal-mistakes"
 baseurl: /jekylltest
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-merlot
