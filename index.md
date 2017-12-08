@@ -1,4 +1,8 @@
 
+---
+layout: search
+---
+
 ### testing
 
 ## 1
