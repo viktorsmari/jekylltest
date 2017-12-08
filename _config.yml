@@ -6,3 +6,5 @@ plugins:
 
 baseurl: /jekylltest
 
+
+theme: jekyll-theme-cayman
